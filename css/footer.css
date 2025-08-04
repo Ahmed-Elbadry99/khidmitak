@@ -2,6 +2,8 @@
  
   overflow-x: hidden; /* متقصش حاجة من فوق */
   padding-bottom: 0;
+  padding: 40px 0;
+  background-color: #267FD0;
 }
 
 footer{
@@ -123,11 +125,47 @@ filter: brightness(0) saturate(100%) invert(21%) sepia(69%) saturate(727%) hue-r
 .end-footer{
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    align-items: center;
     width: 90%;
     margin: 0 auto;
     padding: 10px 0;
+    color: white;
 
+}
+
+.end-footer .jadara{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.end-footer .jadara ul{
+
+    display: flex;
+    gap: 10px;
+}
+
+.end-footer .jadara ul a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    display: block;
+}
+
+.end-footer .jadara ul a img{
+
+    width: 12px;
+    
+
+}
+
+.end-footer .jadara ul a:hover{
+    
+    animation:  1s rubberBand infinite linear  ;
 }
 
 .end-footer .jadara i{
@@ -143,3 +181,21 @@ filter: brightness(0) saturate(100%) invert(21%) sepia(69%) saturate(727%) hue-r
 
 
 
+
+.end-footer .logo{
+
+        
+        display: flex;
+        align-items: center;
+        gap: 20px;
+ }   
+
+.end-footer .logo img{
+
+  width: 60px;
+        height: 60px;
+}
+
+.end-footer .logo p{
+    color: white;
+}

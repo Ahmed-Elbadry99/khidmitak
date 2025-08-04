@@ -296,12 +296,101 @@
 
 /* pooser */
 
-.pooster-img .img-container {
-  height: 550px;
-  width: auto;
+.pooster{
+
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.pooster .main-container,
+.pooster .row{
+  height: 100%;
+}
+.pooster-img{
+  position: relative;
   text-align: left;
+
+}
+
+.pooster-img .img-container {
+   display: inline-block;
+  position: relative;
 }
 
 .pooster-img .img-container img {
-  height: 100%;
+  height: 550px;
+  width: auto;
+  display: block;
 }
+
+.pooster-img-after{
+  position: absolute;
+  bottom: 0;
+  right: -40%;
+  z-index: 10;
+  height: 450PX;
+  animation: 3s rotate infinite linear;
+}
+
+
+@keyframes rotate{
+  0%{
+    transform: rotate(-15deg);
+  }
+   50%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(-15deg);
+  }
+  
+}
+
+.pooster-img-after img{
+  height: 100% !important;
+}
+
+.pooster::after{
+
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 80%;
+  background-color: #f3bb44;
+  z-index: -1;
+  bottom: 0;
+}
+
+.pooster-title{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pooster-text h3{
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.pooster-text p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #1f1f1f;
+}
+
+.pooster-title .download-app{
+
+  justify-content: start;
+
+}
+
+.pooster-title .download-app a {
+
+  width: 225px;
+}
+
+

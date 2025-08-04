@@ -108,6 +108,7 @@
 @media (min-width : 1600px){
 
     
+    
     .header-nav {
         padding:  40px 0;
     }
@@ -429,6 +430,19 @@
 @media (max-width: 993px) {
 
 
+    
+    header,
+    header .main-container,
+    .hero{
+        height: auto;
+    }
+    
+
+    .hero-img{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
     
   nav .nav-list ,
   .header-nav .menu-icon{

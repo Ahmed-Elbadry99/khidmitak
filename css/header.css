@@ -43,7 +43,7 @@ nav{
   height: 120px;
 }
 header .main-container{
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -160,11 +160,16 @@ height: 100%;
   align-items: center;
   flex: 1;
   display: flex;
+  height: calc(100vh - 120px );
 }
 
 .hero .row{
   height: 100%;
   align-items: center;
+}
+
+.hero .col-lg-5{
+  height: 100%;
 }
 
 .hero-text{
@@ -191,6 +196,16 @@ height: 100%;
   font-size: 20px;
 }
 
+.hero-img {
+  height: 100%;
+  overflow: hidden; /* تمنع الصورة تطلع برا */
+}
+
+.hero-img img {
+  height: 100%;
+  object-fit: contain; /* أو cover حسب الشكل المطلوب */
+  display: block;
+}
 
 
 
