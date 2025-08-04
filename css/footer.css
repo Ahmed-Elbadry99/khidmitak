@@ -1,0 +1,145 @@
+.footer {
+ 
+  overflow-x: hidden; /* متقصش حاجة من فوق */
+  padding-bottom: 0;
+}
+
+footer{
+
+  
+   
+}
+
+
+footer .main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.top-fooer ,
+.middle-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.shape1,
+.shape2{
+    content: "";
+    width: 110%;
+    height: 165px;
+    background-color: var(--color-Primary1);
+    position: absolute;
+    top: 0;
+    right: -5px;
+    transform: rotate(-2deg);
+    z-index: 1;
+}
+
+.shape2{
+        background-color: rgba(43, 169, 224, 0.2);
+
+    transform: rotate(0deg);
+    z-index: 2;
+    box-shadow: 2px 2px .5px -2px rgba(255, 255, 255, 0.5),
+                0 2px 8px 2px rgba(12, 79, 137, 0.1),
+                -2px -2px .5px -2px rgba(255, 255, 255, 0.5),
+                0 0 8px 0 rgba(12, 79, 137, 0.5) ; 
+
+    backdrop-filter: blur(6px);
+}
+.footer-contact,
+.footer-contact ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-contact ul{
+    flex-wrap: wrap;
+}
+
+    .footer-contact .contact-info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+.footer-contact .contact-info p{
+    color: var(--color-white);
+    font-size: 20px;
+}
+.footer-contact .contact-info span{
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+.footer-contact li a ,
+.footer-contact li a i{
+
+
+  font-size: 20px;
+  transition: all .3s ease;
+  
+
+}
+
+
+.footer-contact li a img{
+ transition: filter 0.3s ease;
+}
+.footer-contact li a img:hover{
+filter: brightness(0) saturate(100%) invert(21%) sepia(69%) saturate(727%) hue-rotate(170deg) brightness(91%) contrast(92%);
+
+}
+
+
+.footer-contact li a:hover{
+  color: var(--color-Primary1);
+    
+}
+
+
+
+
+.fooer-logo{
+    width: 184px;
+    height: 64px;
+}
+
+.fooer-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.end-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+
+.end-footer .jadara i{
+    color: red;
+    animation: heartBeat 2s infinite;
+}
+
+
+
+
+
+/*  */
+
+
+
