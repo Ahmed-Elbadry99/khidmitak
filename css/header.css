@@ -168,8 +168,10 @@ height: 100%;
   align-items: center;
 }
 
-.hero .col-lg-5{
+.hero .hero-img-container{
   height: 100%;
+  display: flex;
+  justify-content: center;    
 }
 
 .hero-text{

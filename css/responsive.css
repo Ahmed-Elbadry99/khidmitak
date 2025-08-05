@@ -431,18 +431,14 @@
 
 
     
-    header,
-    header .main-container,
-    .hero{
-        height: auto;
-    }
     
 
     .hero-img{
         display: flex;
         justify-content: center;
-        margin-top: 40px;
     }
+
+
     
   nav .nav-list ,
   .header-nav .menu-icon{
@@ -510,273 +506,87 @@
 
 
 
-  .customer-card-text {
-    color: white;
-    padding: 90px 50px 90px 60px;
-    display: flex
-;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    height: 100%;
-    }
-
-        .our-customers .item {
-        height: 420px;
-    }
-
-  .contact-us form{
-    width: 100%;
-    margin-top: 210px
-
-  }
-  .box-msg{
-    top: -140px;
-    right: 60%;
-    transform: translateX(60%);
-    height: 120px;
-    font-size: 18px;
-  }
-
-
-  .box-msg .plane {
-    content: "";
-    position: absolute;
-    right: -117%;
-    top: 34%;
-    transform: translateY(-50%);
-}
-
-
-
-
-
-
 /*  */
 
 
-.work-steps .work-step .col-lg-5 {
-    display: flex;
-    justify-content: center;
+  
+
+
+    
+  
+    
+   
+
+    
 
 }
-  .customer-card-text p{
-        font-size:14px;
-
-        
-     -webkit-line-clamp: 4;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-    line-clamp: 4;
-    text-overflow: ellipsis;
-    white-space: normal;
-    word-wrap: break-word;
-    overflow: hidden;
-    }
 
 
 
-.step-img{
-
-        height: 450px;
-        padding: 40px;
-        width: 70%;
-    }
-
-    .step-text{
-
-        margin: 10px 0;
-    }
-
-    .work-steps .work-step:nth-child(even) .col-lg-7{
-        flex-direction: row;
-    }
-
-    .work-steps .work-step .col-lg-7,
-    .step-text .step-header {
-        justify-content: center;
-        display: flex;
-    }
-
-    .step-text-title{
-       text-align: center;
-    }
-
-
-
-    .work-step{
-        margin: 100px 0;
-    }
-
-
-    /* contact page  */
-    .contact-page form::after{
-        width: 100%;
-    }
-
-
-    .contact-details{
-        width: 100%;
-        height: fit-content;
-        flex-direction: row;
-        flex-wrap: wrap;
-        row-gap: 20px;
-    }
-
-    .contact-page .conact-form .row{
-        display: flex;
-    }
-
-    .contact-page form{
-        width: 100%;
-    }
-
-
-    /* blog-page */
-
-    .blog-info-header h2 {
-        font-size: 26px;
+@media (max-width : 769px){
 
     
-    }
 
-    .blog-details-sidebar-item{
-        height: 240px;
-    }
-    .blog-details-info p,
-    
-    .blog-details-sidebar-item-info p,
-    .blog-info-header-icon span{
-        font-size: 16px;
-    }
-    .blog-details-sidebar-item-info h4{
-        font-size: 18px;
-    }
+    /* header */
 
-    .bolg-details .main-btn2{
-        padding: 10px;
+    header,
+    header .main-container,
+    .hero{
+        height: auto;
     }
 
 
-    /* order page */
-
-
-    .progress-steps{
-        width: 80%;
-    }
-    
-    .chossing-service h3, .service-details h3{
-        font-size: 22px;
-    }
-
-    .chossing-service .form-check-label{
-        font-size: 18px;
-    }
-
-    .services-cards .service-card{
-
-        width: 48%;
-        
-      
-      }
-
-
-      .service-chosse-details{
-        padding: 20px;
-      }
-
-      /* summary-page */
-
-      .services-cards.summary .service-card-container{
-        width: calc(100% / 3);
-        padding: 0 10px;
-      }
-
-      .services-cards .card-header p{
-        font-size: 16px;
-      }
-    
-
-      .about-header{
-        display: block;
-      }
-
-      .about-us .about-us-text h2{
-        display: none;
-      }
-      
-      .about-us .row.container-row{
+    .hero .row{
+        row-gap: 40px;
         flex-direction: column-reverse;
-        padding-top: 50px;
-      }
-
-      .about-us-img-container .about-logo{
-        width: 136px;
-        height: 136px;
-      }
-
-      .our-features{
-        padding: 50px 0;
-      }
-}
-
-
-
-@media (max-width : 768px){
-
-    .header-content .right-img,
-    .header-content .left-img{
-         width: 150px;
-        height: 200px;
     }
 
-    .header-content p{
-        font-size: 50px;
+    .hero .hero-img-container .hero-img{
+        width: 50%;
+    }
+    .hero-text h2 span,
+    .hero-text p ,
+    .about-text .about-header p{
+        font-size: 18px;
+
     }
 
-    .header-content #myParagraph span{
-        font-size: 32px;
-    }
-
-    .header-content label,
-    .sub-title{
-        font-size: 13px;
-    }
-
-    .main-btn,
-    .main-btn2{
-        font-size: 15px;
-        height: 35px;
+    .hero-text h2,
+    .about-text .about-header h3{
+        font-size: 26px;
     }
 
 
+    .download-app a {
+        width: 145px;
+    }
 
      /* about */
-    .section-title{
-        font-size: 30px;
+     .about{
+        margin-top: 30px;
+     }
+
+    .about-img-container{
+
+        display: flex;
+        justify-content: center;    
     }
-    .about-us .about-us-text h2 {
-    width: 220px;
+
+    .about-img{
+        width: 70%;
+    }
+    
+    .about-img img {
+        height: 350px;
+    }
+
+    .about .row{
+        row-gap: 40px;
     }
 
     
-    .about-us .about-us-text p{
-        font-size: 16px;
-    }
 
-    .about-us-image .row .col-6 {
-        height: 170px;
-    }
 
-    .about-us-image .about-logo{
-        width: 170px;
-        height: 170px;
-    }
-
-    .about-us-image .row{
-        width: 100%;
-    }
 
     /* customer */
 
@@ -1334,57 +1144,27 @@
 
 @media (max-width : 425px){
 
-    .header-content .right-img,
-    .header-content .left-img{
-         width: 120px;
-        height: 180px;
-    }
-
-    .header-content p{
-        font-size: 45px;
-    }
-
-    .header-content #myParagraph span{
-        font-size: 28px;
+    /* header */
+    .hero .hero-img-container .hero-img{
+        width: 60%;
     }
 
 
+    /* about */
 
-
-     .our-customers .item {
-    height:400px ;
+    .about-img img {
+        height: 300px;
     }
 
-
-
-    .customer-card-text {
-        color: white;
-        padding: 50px 40px 90px 50px;
-
+    .about-img .notification{
+        height: 50px;
     }
 
-    .customer-card-text h3{
-        font-size: 14px;
-    }
-    .customer-card-text h4{
-        font-size: 13px;
-    }
-    .customer-card-text p{
-        font-size: 12px;
+    /* features */
 
-                -webkit-line-clamp: 4;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 4;
-        line-clamp: 4;
-        text-overflow: ellipsis;
-        white-space: normal;
-        word-wrap: break-word;
-        overflow: hidden;
-        line-height: 2;
-
+    .features-header h3{
+        font-size: 26px;
     }
-
       
 .fooer-logo{
     width: 155px;
@@ -1396,168 +1176,6 @@
         padding: 50px 20px;
     }
 
-    .about-us-image .row .col-6 {
-        height: 120px;
-    }
-
-
-        .about-us-image .about-logo {
-        width: 130px;
-        height: 130px;
-    }
-
-    .section-title{
-        width: 200px;
-        font-size: 24px;
-    }
-
-    
-        .our-customers .item {
-            height: 330px;
-        }
-
-
-            .main-btn,
-            .main-btn3 {
-        font-size: 14px;
-        width: 130px;
-    }
-
-        .contact-us form {
-        width: 100%;
-        margin-top: 180px;
-    }
-
-    .box-msg {
-        top: -110px;
-        right: 90%;
-        transform: translateX(90%);
-        height: 90px;
-        font-size: 18px;
-        width: 129px;
-        font-size: 14px;
-    }
-    
-   .box-msg .plane {
-    content: "";
-    position: absolute;
-    right: -110%;
-    top:10%;
-    transform: translateY(-50%);
-}   
-
-.box-msg .plane svg{
-    width: 140px;
-    height: 110px;
-}
-
-    .step-img {
-        height: 225px;
-        padding: 30px;
-        width: 80%;
-    }
-       
-
-
-    
-    /* blog-page */
-
-    
-    .blog-details-img{
-        height: 330px;
-    }
-
-    .blog-info-header h2 {
-        font-size: 20px;
-
-    
-    }
-
-    .blog-details-sidebar-item{
-        height: 170px;
-    }
-
-    .blog-details-sidebar-item-info .blog-info-header-icon span,
-    .blog-details-info p,
-    
-    .blog-details-sidebar-item-info p{
-        font-size: 13px;
-    }
-
-    .blog-details-sidebar-item-info h4{
-        font-size: 15px;
-    }
-
-    .blog-details-sidebar-item-info p{
-        
-        -webkit-line-clamp: 2;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
-        line-clamp: 2;
-        text-overflow: ellipsis;
-        white-space: normal;
-        word-wrap: break-word;
-        overflow: hidden;
-      }
-
-    .bolg-details .main-btn2{
-        padding: 5px;
-    }
-
-
-
-    .blogs .blog-details-sidebar-item-img{
-        height: 180px;
-    }
-
-    /* summary page */
-    .client-info-summary .info-summary-item p ,
-    .client-pay-way p, .client-pay-way .check-items label,
-    .service-cost p,
-    .service-cost span
-    {
-        font-size: 14px;
-    }
-    .client-pay-way p{
-        width: 100%;
-    }
-
-    .follow-order-container .step-title p{
-        font-size: 20px;
-      }
-
-      .follow-step .img-container {
-        width: 60px;
-        height: 60px;
-    }
-
-
-    .order-follow-steps::after{
-        right: 30px;
-      }
-
-
-      .about-us-img-container {
-        width: 275px;
-        height: 285px;
-    }
-
-    .about-us-img-container .about-logo {
-        width: 125px;
-        height: 125px;
-    }
-
-    .service-child{
-        padding: 10px;
-    }
-
-    .services-cards{
-        width: 100%;
-    }
-
-
-    
 
     
 }
@@ -1569,73 +1187,8 @@
 
 @media (max-width : 375px){
 
-     .our-customers .item {
-    height:270px ;
-    }
-
-
-
-    .customer-card-text {
-        color: white;
-        padding: 50px 45px 60px 60px;
-
-
-    }
-
-
-       /* blog-page */
-
 
     
-       .blog-details-img{
-        height: 280px;
-    }
-
-
-    .blog-details-sidebar-item{
-        height: 175px;
-    }
-
-    .blog-details-sidebar-item-info .blog-info-header-icon span,
-    .blog-details-info p,
-    .blog-details-sidebar-item-info h4,
-    .blog-details-sidebar-item-info p{
-        font-size: 13px;
-    }
-
-    .bolg-details .main-btn2{
-        padding: 5px;
-    }
-
-    .about-us-img-container {
-        width: 260px;
-        height: 270px;
-    }
-
-
-    
-
-     /* search page */
-
-
-
-     header.pages.order-search .bg-bubble {
-        
-        width: 114%;
-        height: 600px;
-        right: 50%;
-        transform: translateY(-50%) translateX(50%);
-       
-    }
-
-    header .search-bar {
-        margin: 0px auto 60px;
-    }
-
-    header .search-bar input{
-        width: 210px;
-        height: 35px ;
-    }
 }
 
 
@@ -1644,73 +1197,9 @@
 @media (max-width : 350px){
 
 
-    .header-content .right-img,
-    .header-content .left-img{
-         width: 100px;
-        height: 160px;
-    }
-
-    .header-content p{
-        font-size: 40px;
-    }
-    
-    .header-content #myParagraph span{
-        font-size: 24px;
-    }
-    
-            .about-us-image .row .col-6 {
-            height: 100px;
-        }
-
-    
-    .owl-services .service-card{
-    height: 300px ;
-    }
- .our-customers .item {
-   
-    height: 240px ;
-    }
-
 
     
 
-
-    .customer-card-text {
-        color: white;
-        padding:40px 50px 15px 60px
-
-    }
-
-    .customer-card-text h3{
-        font-size: 13px;
-    }
-    .customer-card-text h4{
-        font-size: 12px;
-    }
-    .customer-card-text p{
-        font-size: 10px;
-
-                -webkit-line-clamp: 4;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 4;
-        line-clamp: 4;
-        text-overflow: ellipsis;
-        white-space: normal;
-        word-wrap: break-word;
-        overflow: hidden
-    }
-
-
-
-
-
-
-
-    .step-img {
-        height: 200px;
-        
-    }
 
 
 }
